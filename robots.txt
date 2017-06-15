@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /docs/contract.pdf
+Disallow: /images/photos/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /thank-you/
+Disallow: 404.html
+Disallow: site_map.html
