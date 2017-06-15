@@ -171,24 +171,6 @@ header {
                         text-align: center;
                         text-transform: uppercase;
                     }
-                    &.about-block {
-                        background-image: url('{{site.baseUrl}}/images/about_us_block.png');
-                    }
-                    &.events-block {
-                        background-image: url('{{site.baseUrl}}/images/event_block.png');
-                    }
-                    &.weddings-block {
-                        background-image: url('{{site.baseUrl}}/images/wedding_block.png');
-                    }
-                    &.dances-block {
-                        background-image: url('{{site.baseUrl}}/images/dance_block.png');
-                    }
-                    &.photos-block {
-                        background-image: url('{{site.baseUrl}}/images/photo_block.png');
-                    }
-                    &.music-block {
-                        background-image: url('{{site.baseUrl}}/images/music_block.png');
-                    }
                 }
             }
         }
@@ -274,7 +256,7 @@ footer {
         div {
             &.col {
                 .phone-icon {
-                    background-image: url('{{site.baseUrl}}/images/phone.png');
+                    
                     background-position: left center;
                     background-repeat: no-repeat;
                     line-height: 21px;
@@ -284,7 +266,7 @@ footer {
                     margin-left: 6px;
                 }
                 .internet-icon {
-                    background-image: url('{{site.baseUrl}}/images/internet.png');
+                    
                     background-position: left center;
                     background-repeat: no-repeat;
                     line-height: 21px;
