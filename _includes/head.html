@@ -1,5 +1,10 @@
 <head>
-  <link rel="stylesheet" type="text/css" href="{{base}}/css/main.css" />
+  {% capture styles %}{% include main.scss %}{% endcapture %}
+
+  <style>
+  {{ styles | scssify }}
+  </style>
+  
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ base }}/feed.xml"
   />
   <meta name="viewport" content="width=device-width, initial-scale=1"> 

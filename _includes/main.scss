@@ -1,0 +1,21 @@
+$base-font-family:      'Source Sans Pro', Helvetica, Arial, sans-serif;
+
+$on-phone:              400px;
+$on-small:              700px;
+$on-big:                1500px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+@mixin media-query-min($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+@import
+"font-source-sans-pro",
+        "reset",
+        "base"
+;
