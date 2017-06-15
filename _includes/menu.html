@@ -5,25 +5,25 @@
                   active
                   {% elsif page.section == 'testimonials' %}
                   active
-                  {% endif %}" href="{{ site.baseurl }}/about-us" title="About Us">About Us</a>
+                  {% endif %}" href="{{ base }}/about-us" title="About Us">About Us</a>
             <ul>
                 <li>
-                    <a href="{{ site.baseurl }}/testimonials/" title="Testimonials" rel="Testimonials">Testimonials</a>
+                    <a href="{{ base }}/testimonials/" title="Testimonials" rel="Testimonials">Testimonials</a>
                 </li>
             </ul>
         </li>
-        <li><a class="{% if page.section == 'events' %} active{% endif %}" href="{{ site.baseurl }}/events/" title="Events" rel="Events">Events</a></li>
+        <li><a class="{% if page.section == 'events' %} active{% endif %}" href="{{ base }}/events/" title="Events" rel="Events">Events</a></li>
         <li><a class="{% if page.section == 'pricing' %} active {% elsif page.section == 'wedding-package' %}
                   active {% elsif page.section == 'dance-package' %}
                   active {% endif %}" href="#" title="Pricing">Pricing</a>
             <ul>
-                <li><a href="{{ site.baseurl }}/wedding-package/" title="Wedding-Package">Wedding Package</a></li>
-                <li><a href="{{ site.baseurl }}/dance-package/" title="Dance-Package">Dance Package</a></li>
+                <li><a href="{{ base }}/wedding-package/" title="Wedding-Package">Wedding Package</a></li>
+                <li><a href="{{ base }}/dance-package/" title="Dance-Package">Dance Package</a></li>
             </ul>
         </li>
-        <li><a class="{% if page.section == 'contract' %} active{% endif %}" href="{{ site.baseurl }}/contract/" title="Contract">Contract</a></li>
-        <li><a class="{% if page.section == 'music' %} active{% endif %}" href="{{ site.baseurl }}/music/" title="Music">Music</a></li>
-        <li><a class="{% if page.section == 'photos' %} active{% endif %}" href="{{ site.baseurl }}/photos/" title="Photos">Photos</a></li>
+        <li><a class="{% if page.section == 'contract' %} active{% endif %}" href="{{ base }}/contract/" title="Contract">Contract</a></li>
+        <li><a class="{% if page.section == 'music' %} active{% endif %}" href="{{ base }}/music/" title="Music">Music</a></li>
+        <li><a class="{% if page.section == 'photos' %} active{% endif %}" href="{{ base }}/photos/" title="Photos">Photos</a></li>
     </ul>
 </nav>
 <nav class="mobile">
@@ -31,27 +31,27 @@
         <option value="/">Home</option>
         <option {% if page.section == 'about-us' %}
                 selected
-                {% endif %} value="{{ site.baseurl }}/about-us">About Us</option>
+                {% endif %} value="{{ base }}/about-us">About Us</option>
         <option {% if page.section == 'testimonials' %}
                 selected
-                {% endif %} value="{{ site.baseurl }}/testimonials">Testimonials</option>
+                {% endif %} value="{{ base }}/testimonials">Testimonials</option>
         <option {% if page.section == 'events' %}
                 selected
-                {% endif %} value="{{ site.baseurl }}/events">Events</option>
+                {% endif %} value="{{ base }}/events">Events</option>
         <option {% if page.section == 'wedding-package' %}
                 selected
-                {% endif %} value="{{ site.baseurl }}/wedding-package">Wedding Package</option>
+                {% endif %} value="{{ base }}/wedding-package">Wedding Package</option>
         <option {% if page.section == 'dance-package' %}
                 selected
-                {% endif %} value="{{ site.baseurl }}/dance-package">Dance Package</option>
+                {% endif %} value="{{ base }}/dance-package">Dance Package</option>
         <option {% if page.section == 'contract' %}
                 selected
-                {% endif %} value="{{ site.baseurl }}/contract">Contract</option>
+                {% endif %} value="{{ base }}/contract">Contract</option>
         <option {% if page.section == 'music' %}
                 selected
-                {% endif %} value="{{ site.baseurl }}/music">Music</option>
+                {% endif %} value="{{ base }}/music">Music</option>
         <option {% if page.section == 'photos' %}
                 selected
-                {% endif %} value="{{ site.baseurl }}/photos">Photos</option>
+                {% endif %} value="{{ base }}/photos">Photos</option>
     </select>
 </nav>
