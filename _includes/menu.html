@@ -29,6 +29,9 @@
 <nav class="mobile">
     <select id="mobile-select">
         <option value="/">Home</option>
+        <option {% if page.section == 'contact-us' %}
+                selected
+                {% endif %} value="{{site.baseUrl}}/contact-us">Contact Us</option>
         <option {% if page.section == 'about-us' %}
                 selected
                 {% endif %} value="{{site.baseUrl}}/about-us">About Us</option>

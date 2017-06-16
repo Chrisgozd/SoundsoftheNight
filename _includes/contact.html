@@ -1,0 +1,45 @@
+<form method="POST" action="https://formspree.io/chrisgozd92@gmail.com" id="contactForm">
+    <label>Name:
+                <input type="text" size="18" name="Full Name" required class="name" />
+                </label>
+    <label>Email:
+                <input type="text" size="18" name="Email Address" required class="email" />
+</label>
+    <label>Phone: 
+                <input type="text" name="Phone Number" size="18" required class="phone" />
+</label>
+    <label>Date: 
+                <input type="text" name="Event Date" size="18" class="date" />
+</label>
+    <label>Location: 
+                    <input type="text" name="Event Location" size="18" required class="location" />
+                </label>
+
+    <label>Event Type:
+                <select name="Event Type" class="event_type">
+                                    <option value="---">---</option>
+                                    <option value="Wedding">Wedding</option>
+                                    <option value="Dance">Dance</option>
+                                    <option value="Birthday Party">Birthday Party</option>
+                                    <option value="Holiday Party">Holiday Party</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                 </label>
+
+    <label>How did you hear about us?
+                <select name="How did you hear?" class="hear">
+                                    <option value="---">---</option>
+                                    <option value="Business Card">Business Card</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="WeDJ.com">WeDJ.com</option>
+                                    <option value="Craigslist">Craigslist</option>
+                                    <option value="Referral">Referral</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                </label>
+
+    <label>Message:
+                <textarea name="Message" cols="25" rows="5" class="message"></textarea>
+                </label>
+    <input type="submit" class="btn" value="Submit" />
+</form>

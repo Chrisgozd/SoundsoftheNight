@@ -139,6 +139,16 @@ header {
         @include media-query($on-small) {
             padding: 25px 20px;
         }
+        .testimonial {
+            border: 1px solid #d1d1d1;
+            line-height: 1.8em;
+            padding: 10px;
+            font-size: 15px;
+            margin-bottom: 20px;
+            p {
+                margin: 0px;
+            }
+        }
         .home {
             h1 {
                 margin: 25px 0;
@@ -205,48 +215,48 @@ header {
         @include media-query($on-small) {
             display: none;
         }
-        .banner {
-            background: #9c3;
-            h2 {
-                font-size: 25px;
-                text-align: center;
-                padding: 10px;
-                font-weight: bold;
-            }
+    }
+    .banner {
+        background: #9c3;
+        h2 {
+            font-size: 25px;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
         }
-        form {
-            padding: 15px;
-            font-size: 14px;
-            label {
-                display: block;
-                margin-bottom: 7px;
-            }
-            input[type="text"] {
-                float: right;
-                border: 1px solid #7f7d78;
-                padding: 3px;
-                border-radius: 2px;
-            }
-            input[type="submit"] {
-                padding: 7px;
-                margin: 0 auto;
-                display: block;
-            }
-            select {
-                display: block;
-                width: 75%;
-                padding: 3px;
-                margin-top: 3px;
-                margin: 0 auto;
-                margin-bottom: 5px;
-                border: 1px solid #7f7d78;
-                border-radius: 3px;
-            }
-            textarea {
-                border-radius: 2px;
-                border: 1px solid #7f7d78;
-                width: 98%;
-            }
+    }
+    form {
+        padding: 15px;
+        font-size: 14px;
+        label {
+            display: block;
+            margin-bottom: 7px;
+        }
+        input[type="text"] {
+            float: right;
+            border: 1px solid #7f7d78;
+            padding: 3px;
+            border-radius: 2px;
+        }
+        input[type="submit"] {
+            padding: 7px;
+            margin: 0 auto;
+            display: block;
+        }
+        select {
+            display: block;
+            width: 75%;
+            padding: 3px;
+            margin-top: 3px;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            border: 1px solid #7f7d78;
+            border-radius: 3px;
+        }
+        textarea {
+            border-radius: 2px;
+            border: 1px solid #7f7d78;
+            width: 98%;
         }
     }
 }

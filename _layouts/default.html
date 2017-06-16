@@ -7,9 +7,11 @@
     {% include header.html %}
     <div class="wrapper">
         <div class="content">
+            {% if page.section != 'contact-us' %}
             <div class="sidebar">
                 {% include sidebar.html %}
             </div>
+            {% endif %}
             <div class="text">
                 {{ content }}
             </div>
