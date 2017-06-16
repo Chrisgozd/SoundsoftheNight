@@ -151,13 +151,13 @@ header {
             ul {
                 list-style-type: none;
                 display: flex;
-                justify-content: space-between;
                 margin-left: 0px;
                 li {
                     height: 175px;
                     display: flex;
                     flex: 1;
                     border-radius: 5px;
+                    justify-content: flex-end;
                     flex-direction: column;
                     background-size: cover;
                     @include media-query($on-small) {
