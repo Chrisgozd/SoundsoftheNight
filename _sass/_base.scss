@@ -160,6 +160,10 @@ header {
                     border-radius: 5px;
                     justify-content: flex-end;
                     flex-direction: column;
+                    background-size: cover;
+                    @include media-query($on-small) {
+                        height: 125px;
+                    }
                     &:first-child {
                         margin-right: 25px;
                     }
@@ -176,6 +180,9 @@ header {
                         color: white;
                         text-align: center;
                         text-transform: uppercase;
+                        @include media-query($on-small) {
+                            font-size: 18px;
+                        }
                     }
                 }
             }
