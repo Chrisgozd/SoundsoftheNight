@@ -1,6 +1,6 @@
 # Site settings
 
-baseUrl: /SoundsoftheNight
+baseUrl: 
 
 # Name of your site (displayed in the header)
 name: Sounds of the Night
@@ -10,6 +10,8 @@ description: Professional DJ Service in WI
 
 email: nrcraver@gmail.com
 url: "https://nickcraver.com"
+
+repository: chrisgozd/soundsofthenight.github.io
 
 permalink: pretty
 contenturl: "/images/content/"
@@ -24,7 +26,7 @@ disqus: nickcraver
 google_analytics_ua: UA-28897355-1
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
