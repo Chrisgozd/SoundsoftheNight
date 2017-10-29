@@ -8,9 +8,6 @@ name: Sounds of the Night
 # Short bio or description (displayed in the header)
 description: Professional DJ Service in WI
 
-email: nrcraver@gmail.com
-url: "https://nickcraver.com"
-
 repository: chrisgozd/soundsofthenight.github.io
 
 permalink: pretty
@@ -20,8 +17,6 @@ kramdown:
   input: GFM
   parse_block_html: true
 excerpt_separator: <!--more-->
-
-disqus: nickcraver
 
 google_analytics_ua: UA-28897355-1
 
